@@ -15,7 +15,7 @@
     transform: scale(-5,1);
     transform: scale(-5);*/
     
-    float: right
+    /* float: right */
     margin:auto
 }
 
@@ -26,16 +26,16 @@
     display: inline-block;
 }  
 
-.skewx {
+.skew-x {
 
 }
 
-.skewx-neg-50 {
+.skew-x-neg-20 {
 
 }
 
-.skewX-20 {
-
+.skew-x-20 {
+    
     animation: slow-horizontal 3s infinite;
     
     animation-direction: alternate;
@@ -43,9 +43,9 @@
 
 @keyframes skew-horizontal {
     0% {
-        transform: skewX(20deg);
+        transform: skew-x(20deg);
     }
     100% {
-        transform: skewX(-20deg);
+        transform: skew-x(-20deg);
     }
 }
