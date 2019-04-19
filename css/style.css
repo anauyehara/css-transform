@@ -1,19 +1,51 @@
 .scale {
     width: 30px;
     height: 30;
-    /* Increase the width 10 times heigh 2 times */
-    transform: scale(1,1);
+    /* Increase the width 10 times heigh 2 times 
+    transform: scale(1,1);*/
 
-    /* decrease the width in half, height in quarter */
-    transform: scale(0.5, 0.25);
+    /* decrease the width in half, height in quarter
+    transform: scale(0.5, 0.25);*/
 
-    /* flips the x-axis */
+    /* flips the x-axis 
     transform: scale(-5,1);
-    transform: scale(-5);
+    transform: scale(-5);*/
 
-    /* flips the y-axis */
+    /* flips the y-axis 
     transform: scale(-5,1);
-    transform: scale(-5);
+    transform: scale(-5);*/
     
+    float: right
     margin:auto
+}
+
+.box  {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}  
+
+.skewx {
+
+}
+
+.skewx-neg-50 {
+
+}
+
+.skewX-20 {
+
+    animation: slow-horizontal 3s infinite;
+    
+    animation-direction: alternate;
+}
+
+@keyframes skew-horizontal {
+    0% {
+        transform: skewX(20deg);
+    }
+    100% {
+        transform: skewX(-20deg);
+    }
 }
